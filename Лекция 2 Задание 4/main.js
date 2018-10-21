@@ -1,32 +1,3 @@
-<!DOCTYPE html>
-<!-- saved from url=(0136)https://trello-attachments.s3.amazonaws.com/5bc6fd4a49720274e7712264/5bc6fd4a49720274e7712274/bcb9b436779d4f542d31c312c03fa364/pass.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Log in</title>
-	
-	<style type="text/css">
-	body{
-		font-family: arial;
-	}
-	.btn:hover{
-		transition: 0.5s;
-		border: 4px solid blue;
-	}
-	</style>
-</head>
-<body cz-shortcut-listen="true">
-<div class="vvod">
-	<div class="form">
-	<label>Логин:</label><br>
-	<input placeholder="somename@mail.com" id="log" type="text" name="email"><br><br>
-	<label>Пароль:</label><br>
-	<input required="" id="pass" type="password" name="pass"><br><br>
-
-	<input class="btn" style="color: red; background: yellow; width: 75px;
-	height: 75px; border-radius: 50%;font-size: 15px;" onclick="ok();" id="login" value="Войти" type="button" name="login">
-</div>
-</div>
-
-<script type="text/javascript">
 	var verh_reg = new Array('А','Б','В','Г','Д','Е','Ё','Ж','З','И','Й','К','Л','М','Н','О','П','Р','С','Т','У','Ф','Х','Ц','Ч','Ш','Щ','Ъ','Ы','Ь','Э','Ю','Я','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','R','S','T','U','V','W','X','Y','Z');
 	var number = new Array('1','2','3','4','5','6','7','8','9','0');
 	var spec_symb = new Array('$','%',';','@','&','#');
@@ -120,6 +91,3 @@ if (tochka_error == true) {
 		}
 
 	}
-</script>
-
-</body></html>

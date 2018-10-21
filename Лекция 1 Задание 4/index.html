@@ -2,26 +2,7 @@
 <!-- saved from url=(0137)https://trello-attachments.s3.amazonaws.com/5bc6fd4a49720274e7712264/5bc6fd4a49720274e771226d/0f195911cc30eb39cfdacb66ceb67b6a/table.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Table</title>
-	<style type="text/css">
-	body{
-		font-family: arial;
-	}
-		table{
-			margin: 0 auto;
-			position: absolute;
-			border-radius: 7px;
-		}
-		td{
-			text-align: center;
-		}
-		.buttons{
-			margin-top: 15%;
-		}
-		.days td{
-			background-color: yellow;
-			color: red;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body cz-shortcut-listen="true">
 	<div class="tables">
@@ -155,26 +136,6 @@
 </div>
 
 
-<script type="text/javascript">
-	
-var bt = document.getElementById('btime');
-var blessons = document.getElementById('blessons');
-
-var tt = document.getElementById('timetable');
-var lt = document.getElementById('lessonstable');
-
-
- tt.style.visibility = "hidden";
-
-function time() {
-	lt.style.visibility = "hidden";
-	tt.style.visibility = "visible";
-}
-function lessons() {
-	tt.style.visibility = "hidden";
-	lt.style.visibility = "visible";
-}
-
-</script>
+<script type="text/javascript" src="main.js"></script>
 
 </body></html>
